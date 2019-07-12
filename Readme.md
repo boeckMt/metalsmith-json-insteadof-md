@@ -1,7 +1,5 @@
 # metalsmith-json-insteadof-md
 
-[![npm version][npm-badge]][npm-url]
-[![code style: prettier][prettier-badge]][prettier-url]
 [![metalsmith: core plugin][metalsmith-badge]][metalsmith-url]
 
 [![Known Vulnerabilities][snyk-badge]][synk-url]
@@ -73,10 +71,7 @@ Metalsmith(__dirname)
 MIT
 
 [npm-badge]: https://img.shields.io/npm/v/metalsmith-markdown.svg
-[npm-url]: https://www.npmjs.com/package/metalsmith-markdown
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?longCache=true
 [prettier-url]: https://github.com/prettier/prettier
 [metalsmith-badge]: https://img.shields.io/badge/metalsmith-core_plugin-green.svg?longCache=true
 [metalsmith-url]: http://metalsmith.io
-[snyk-badge]: https://snyk.io/test/github/segmentio/metalsmith-markdown/badge.svg?targetFile=package.json
-[synk-url]: https://snyk.io/test/github/segmentio/metalsmith-markdown?targetFile=package.json
