@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-json-insteadof-md",
+  "description": "A Metalsmith plugin to use JSON files in addition to or instead of markdown files.",
+  "repository": "git://github.com/boeckMt/metalsmith-json-insteadof-md.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "eslint --fix .",
+    "test": "mocha test",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.1.0",
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "metalsmith": "^2.3.0",
+    "mocha": "^6.0.0",
+    "prettier": "^1.16.4",
+    "metalsmith-markdown": "^1.2.0"
+  }
+}
