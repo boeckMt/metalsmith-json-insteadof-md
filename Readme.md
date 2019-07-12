@@ -1,8 +1,6 @@
 # metalsmith-json-insteadof-md
 
-[![metalsmith: core plugin][metalsmith-badge]][metalsmith-url]
-
-[![Known Vulnerabilities][snyk-badge]][synk-url]
+[![metalsmith: plugin][metalsmith-badge]][metalsmith-url]
 
 A Metalsmith plugin to use JSON files in addition to markdown files.
 
@@ -71,7 +69,5 @@ Metalsmith(__dirname)
 MIT
 
 [npm-badge]: https://img.shields.io/npm/v/metalsmith-markdown.svg
-[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?longCache=true
-[prettier-url]: https://github.com/prettier/prettier
-[metalsmith-badge]: https://img.shields.io/badge/metalsmith-core_plugin-green.svg?longCache=true
+[metalsmith-badge]: https://img.shields.io/badge/metalsmith-plugin-lightgrey.svg?longCache=true
 [metalsmith-url]: http://metalsmith.io
