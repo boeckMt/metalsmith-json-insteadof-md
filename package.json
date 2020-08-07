@@ -2,7 +2,7 @@
   "name": "metalsmith-json-insteadof-md",
   "description": "A Metalsmith plugin to use JSON files in addition to or instead of markdown files.",
   "repository": "git://github.com/boeckMt/metalsmith-json-insteadof-md.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
