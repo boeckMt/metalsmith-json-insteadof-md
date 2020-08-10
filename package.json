@@ -10,7 +10,7 @@
     "pretest": "eslint --fix .",
     "test": "mocha test",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "debug": "^4.1.1"
