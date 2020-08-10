@@ -22,9 +22,9 @@ options:
 
 
 ```js
-var Metalsmith = require('metalsmith');
-var markdown = require('metalsmith-markdown');
-var jsonContent = require('metalsmith-json-insteadof-md');
+const Metalsmith = require('metalsmith');
+const markdown = require('metalsmith-markdown');
+const jsonContent = require('metalsmith-json-insteadof-md'); // or import * as jsonContent from 'metalsmith-json-insteadof-md';
 
 Metalsmith(__dirname)
     .source('./source/')
@@ -40,7 +40,7 @@ Metalsmith(__dirname)
 ```
 
 
-use the options if you filter on the files later e.g.:
+use the options whith `fileExtnameTo: '.md'` if you filter on the files later e.g.:
 
 ```js
 Metalsmith(__dirname)
@@ -62,6 +62,31 @@ Metalsmith(__dirname)
       }
     });
 ```
+
+## Write the content
+
+my-file.md
+
+```md
+  ---
+  title: A Catchy Title
+  draft: false
+  ---
+
+  An unfinished article...
+```
+
+writen in json:
+
+```json
+{
+  "title": "A Catchy Title",
+  "draft": false,
+  "content": "<p></p>"
+}
+```
+
+**The intention for this plugin was to use it with a json schema file and write the content with a IDE which supports json schema validation.**
 
 
 ## License

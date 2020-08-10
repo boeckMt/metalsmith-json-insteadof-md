@@ -1,0 +1,29 @@
+{
+  "$id": "https://example.com/address.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content Post",
+  "description": "Allowed Content in a post",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+      "title": {
+          "description": "The Title for the Activation",
+          "type": "string",
+          "default": "The Title for the Activation"
+      },
+      "draft": {
+          "description": "The Path to a Prevew Image for the Activation",
+          "type": "boolean",
+          "default": false
+      },
+      "content": {
+          "description": "The Text describing the Post - you can place html tags in there.",
+          "type": "string",
+          "default": "<p>This is some text in a paragraph.</p><p>This is another text in a paragraph.</p>"
+      }
+  },
+  "required": [
+      "title",
+      "draft"
+  ]
+}
