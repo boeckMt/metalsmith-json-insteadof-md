@@ -9,7 +9,7 @@ This plugin is based on [metalsmith-markdown](https://github.com/segmentio/metal
 ## Installation
 
 ```bash
-$ npm install --save https://github.com/boeckMt/metalsmith-json-insteadof-md.git
+$ npm install --save @boeckmt/metalsmith-json-insteadof-md
 ```
 
 ## Javascript Usage
