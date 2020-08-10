@@ -22,7 +22,7 @@ describe('metalsmith-json-insteadof-md', function () {
       .use(jsonContent())
       .build(function (err, files) {
         if (err) return done(err);
-        assert.equal('A Title for the JSON Post', files['index.html'].titel);
+        assert.equal('A Title for the JSON Post', files['index.html'].title);
         done();
       });
   });
@@ -37,7 +37,7 @@ describe('metalsmith-json-insteadof-md', function () {
       .use(markdown())
       .build(function (err, files) {
         if (err) return done(err);
-        assert.equal('A Title for the JSON Post', files['index.html'].titel);
+        assert.equal('A Title for the JSON Post', files['index.html'].title);
         done();
       });
   });

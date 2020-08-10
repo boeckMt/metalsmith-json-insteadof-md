@@ -1,5 +1,6 @@
 ---
-titel: A Title for the JSON Post
+title: A Title for the JSON Post
+draft: false
 ---
 
 # A JSON Post

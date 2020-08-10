@@ -7,9 +7,9 @@
   "additionalProperties": false,
   "properties": {
       "title": {
-          "description": "The Title for the Activation",
+          "description": "The Title for the Post",
           "type": "string",
-          "default": "The Title for the Activation"
+          "default": "The Title for the Post"
       },
       "draft": {
           "description": "The Path to a Prevew Image for the Activation",
@@ -17,7 +17,7 @@
           "default": false
       },
       "content": {
-          "description": "The Text describing the Post - you can place html tags in there.",
+          "description": "The Text describing the Post content - you can place html tags in there.",
           "type": "string",
           "default": "<p>This is some text in a paragraph.</p><p>This is another text in a paragraph.</p>"
       }

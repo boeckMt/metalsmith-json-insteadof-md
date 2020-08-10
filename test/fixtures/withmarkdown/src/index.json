@@ -1,4 +1,5 @@
 {
-    "titel": "A Title for the JSON Post",
+    "title": "A Title for the JSON Post",
+    "draft": false,
     "content": "<h1>A JSON Post</h1> With some 'amazing', <em>riveting</em>, <strong>coooonnnntent</strong>"
 }

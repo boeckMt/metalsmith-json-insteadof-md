@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+      {
+          "fileMatch": [
+              "/test/fixtures/*"
+          ],
+          "url": "./test/test-schema/test-content.schema.json"
+      }
+  ],
+  "editor.wordWrap": "on"
+}
