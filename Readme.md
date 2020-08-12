@@ -24,7 +24,7 @@ options:
 ```js
 const Metalsmith = require('metalsmith');
 const markdown = require('metalsmith-markdown');
-const jsonContent = require('metalsmith-json-insteadof-md'); // or import * as jsonContent from 'metalsmith-json-insteadof-md';
+const jsonContent = require('@boeckmt/metalsmith-json-insteadof-md'); // or import * as jsonContent from '@boeckmt/metalsmith-json-insteadof-md';
 
 Metalsmith(__dirname)
     .source('./source/')
