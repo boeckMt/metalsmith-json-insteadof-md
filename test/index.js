@@ -27,7 +27,7 @@ describe('metalsmith-json-insteadof-md', function () {
       });
   });
 
-  it('should allow zu use it with metalsmith-markdown', function (done) {
+  it('should allow to use it with metalsmith-markdown', function (done) {
     Metalsmith('test/fixtures/withmarkdown')
       .use(
         jsonContent({
