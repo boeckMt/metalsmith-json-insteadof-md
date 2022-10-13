@@ -3,7 +3,7 @@
   "description": "A Metalsmith plugin to use JSON files in addition to or instead of markdown files.",
   "repository": "git://github.com/boeckMt/metalsmith-json-insteadof-md.git",
   "author": "boeckmt (https://boeckmt.github.io/)",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
